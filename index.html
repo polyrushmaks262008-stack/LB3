@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <title>Космічний туризм - Головна</title>
+    <style>
+        * { box-sizing: border-box; }
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background-color: #0b0f19;
+            color: #f0f6fc;
+        }
+        header {
+            background-color: #161b22;
+            padding: 20px;
+            text-align: center;
+            border-bottom: 1px solid #30363d;
+        }
+        nav ul {
+            list-style-type: none;
+            padding: 0;
+            margin: 10px 0 0 0;
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+        }
+        nav a {
+            color: #58a6ff;
+            text-decoration: none;
+            font-weight: bold;
+        }
+        nav a:hover {
+            text-decoration: underline;
+        }
+        .container {
+            display: flex;
+            min-height: 400px;
+        }
+        aside {
+            flex: 1;
+            background-color: #11161d;
+            padding: 20px;
+            border-right: 1px solid #30363d;
+        }
+        main {
+            flex: 3;
+            padding: 20px;
+            background-color: #0d1117;
+        }
+        /* Стилі для зображень */
+        img {
+            max-width: 100%;
+            height: auto;
+            border-radius: 8px;
+            margin-top: 15px;
+            border: 1px solid #30363d;
+        }
+        .sidebar-img {
+            margin-top: 10px;
+        }
+        footer {
+            background-color: #161b22;
+            text-align: center;
+            padding: 15px;
+            border-top: 1px solid #30363d;
+            font-size: 14px;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>Космічні Подорожі майбутнього</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Головна</a></li>
+                <li><a href="planets.html">Планети</a></li>
+                <li><a href="tours.html">Тури</a></li>
+                <li><a href="contacts.html">Контакти</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <div class="container">
+        <aside>
+            <h3>Меню розділу</h3>
+            <ul>
+                <li>Про нас</li>
+                <li>Новини</li>
+            </ul>
+            <!-- Зображення в сайдбарі -->
+            <img src="https://images.unsplash.com/photo-1451187580459-43490279c0fa?w=400" alt="Космічний апарат" class="sidebar-img">
+        </aside>
+        
+        <main>
+            <h2>Вітаємо на борту!</h2>
+            <p>Багатосторінковий сайт присвячений комерційним польотам у космос. Використовуйте меню зверху для навігації між сторінками. Сайт реалізовано у вигляді статичних HTML-файлів із блочною версткою.</p>
+            <p>Наша мета — зробити космос доступним для кожного земнеянина!</p>
+            
+            <!-- Основне зображення на сторінці -->
+            <img src="https://images.unsplash.com/photo-1541185933-ef5d8ed016c2?w=800" alt="Вигляд Землі з космосу">
+        </main>
+    </div>
+
+    <footer>
+        <p>&copy; 2026 Космічний Туризм. Всі права захищені.</p>
+    </footer>
+
+</body>
+</html>
